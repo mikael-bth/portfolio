@@ -39,6 +39,10 @@ body {
     justify-content: space-between;
 }
 
+.footer {
+    background-color: #333;
+}
+
 /* Title */
 
 .title, .logo {
