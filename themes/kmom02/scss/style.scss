@@ -18,11 +18,26 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Roboto Mono', monospace;
 }
 
 .footer {
-    border-top: 2px solid black;
+    border-top: 2px solid rgb(0, 0, 0);
     text-align: center;
+}
+
+.groda {
+    width: $img-width;
+}
+
+@media (max-width: ($img-width + 200px)) {
+    .groda {
+        width: 100%;
+    }
 }

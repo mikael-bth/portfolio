@@ -20,4 +20,4 @@ Om jag är inte hemma och programmerar eller spelar datorspel så kan ni hitta m
 
 Det var allt för mig!
 
-![Bild som representerar mig](image/groda1.jpg)
+![Bild som representerar mig](image/groda1.jpg){.groda}
