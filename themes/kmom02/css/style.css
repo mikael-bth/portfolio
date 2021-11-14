@@ -6505,9 +6505,14 @@ h6 {
   font-family: "Roboto Mono", monospace;
 }
 
+i {
+  font-size: 32px;
+}
+
 .footer {
   border-top: 2px solid black;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .groda {
