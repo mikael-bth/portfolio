@@ -1,8 +1,13 @@
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
-
 @import 'blockquotes';
 @import 'code';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono&display=swap');
 
 body {
     background-color: $background-color;
@@ -10,4 +15,9 @@ body {
 
 * {
     color: $font-color;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Mono', monospace;
 }

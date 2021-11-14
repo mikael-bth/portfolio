@@ -4,5 +4,5 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/mikael-bth/portfolio
-      icon: github
+      icon: fab fa-github
 ---
