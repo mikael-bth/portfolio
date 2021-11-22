@@ -1,0 +1,39 @@
+.landingpage .subpage{
+    display: grid;
+    gap: 2em 2em;
+    grid-template-columns: 10% 80%;
+}
+
+.landingpage .subpage h1 {
+    grid-column: span 2;
+    justify-self: center;
+}
+
+.landingpage .links {
+    display: grid;
+    grid-column: span 1;
+    justify-self: center;
+    font-size: 16px;
+}
+
+.landingpage .links a {
+    margin-top: 10px;
+}
+
+.landingpage .active {
+    color: rgb(255, 123, 0);
+}
+
+@media (max-width: 768px) {
+    .landingpage .subpage {
+        grid-template-columns: 100%;
+    }
+
+    .landingpage .subpage h1 {
+        grid-column: span 1;
+    }
+    
+    .landingpage .links {
+        display: none;
+    }
+}
