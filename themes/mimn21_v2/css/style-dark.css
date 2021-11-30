@@ -6689,11 +6689,11 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background-color: #3d5a80;
+  background-color: #313030;
 }
 
 * {
-  color: #000;
+  color: #fff;
   font-family: "Nunito", sans-serif;
 }
 
@@ -6711,9 +6711,13 @@ i {
 }
 
 .footer {
-  border-top: 2px solid black;
+  border-top: 2px solid #fff;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.nav a {
+  color: #ff7b00;
 }
 
 .groda {

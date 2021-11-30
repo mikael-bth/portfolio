@@ -8,8 +8,12 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass mimn21_v2/scss/style.scss mimn21_v2/css/style.css --no-source-map",
-    "style-min": "sass mimn21_v2/scss/style.scss mimn21_v2/css/style.min.css --no-source-map --style compressed"
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass mimn21_v2/scss/style-dark.scss mimn21_v2/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass mimn21_v2/scss/style-dark.scss mimn21_v2/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass mimn21_v2/scss/style.scss mimn21_v2/css/style.css --no-source-map",
+    "style-light-min": "sass mimn21_v2/scss/style.scss mimn21_v2/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

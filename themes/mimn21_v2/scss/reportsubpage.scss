@@ -17,10 +17,14 @@
 }
 
 .landingpage .text {
-    background-color: rgb(245, 243, 224);
-    border: 2px solid rgb(0, 0, 0);
+    background-color: $box-background-color;
+    border: 2px solid $border-color;
     border-radius: 20px;
     margin-bottom: 10px;
+}
+
+.landingpage .text p {
+    color: $box-font-color;
 }
 
 .landingpage .links a {
@@ -28,7 +32,7 @@
 }
 
 .landingpage .active {
-    color: rgb(255, 123, 0);
+    color: $link-color-dark;
 }
 
 @media (max-width: 768px) {

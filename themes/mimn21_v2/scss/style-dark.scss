@@ -1,0 +1,60 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono&display=swap');
+@import 'report';
+@import 'reportsubpage';
+@import 'analysis';
+@import 'color_swabs';
+
+$background-color: $background-dark-color;
+$font-color: $font-dark-color;
+
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+i {
+    font-size: 32px;
+}
+
+.footer {
+    border-top: 2px solid $font-color;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.nav a {
+    color: $link-color-dark;
+}
+
+.groda {
+    width: $img-width;
+}
+
+@media (max-width: ($img-width + 200px)) {
+    .groda {
+        width: 100%;
+    }
+}
