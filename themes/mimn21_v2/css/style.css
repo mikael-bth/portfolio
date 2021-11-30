@@ -6663,6 +6663,16 @@ readers do not read off random characters that represent icons */
     grid-column: span 1;
   }
 }
+.landingpage .subpage table {
+  border-spacing: 4px;
+  border-collapse: separate;
+}
+
+.landingpage .subpage td {
+  height: 50px;
+  width: 50px;
+}
+
 body {
   background-color: #3d5a80;
 }
