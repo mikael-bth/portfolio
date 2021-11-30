@@ -10,6 +10,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono&display=swap');
 @import 'report';
 @import 'reportsubpage';
+@import 'analysis';
+@import 'color_swabs';
 
 body {
     background-color: $background-color;
