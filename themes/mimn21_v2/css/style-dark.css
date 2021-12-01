@@ -6615,7 +6615,7 @@ readers do not read off random characters that represent icons */
   justify-self: center;
 }
 
-.landingpage .analysis_header {
+.landingpage .analysis-header {
   color: #fff;
   background-color: #d18109;
   border-bottom: 1px solid #000;
@@ -6625,7 +6625,7 @@ readers do not read off random characters that represent icons */
   height: 60px;
 }
 
-.anylysis_box {
+.anylysis-box {
   background-color: #fff7e1;
   border: 1px solid #000;
   height: 350px;
@@ -6636,19 +6636,19 @@ readers do not read off random characters that represent icons */
   grid-template-rows: 100px 100px auto;
 }
 
-.anylysis_box p {
+.anylysis-box p {
   margin-left: 10px;
   color: #000;
 }
 
-.anylysis_box a {
+.anylysis-box a {
   justify-self: end;
   align-self: end;
   font-size: 24px;
   margin: 10px;
 }
 
-.anylysis_box a i {
+.anylysis-box a i {
   color: #000;
 }
 
@@ -6657,7 +6657,7 @@ readers do not read off random characters that represent icons */
     grid-column: span 2;
   }
 
-  .landingpage .anylysis_box.last {
+  .landingpage .anylysis-box.last {
     grid-column: span 2;
     justify-self: center;
     min-width: 400px;
@@ -6668,13 +6668,13 @@ readers do not read off random characters that represent icons */
     grid-column: span 1;
   }
 
-  .landingpage .anylysis_box {
+  .landingpage .anylysis-box {
     width: 80%;
     justify-self: center;
     grid-column: span 1;
   }
 
-  .landingpage .anylysis_box.last {
+  .landingpage .anylysis-box.last {
     grid-column: span 1;
   }
 }
@@ -6783,6 +6783,7 @@ i {
 
 .groda {
   width: 1000px;
+  border-radius: 20%;
 }
 
 @media (max-width: 1200px) {

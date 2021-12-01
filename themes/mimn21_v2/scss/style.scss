@@ -37,17 +37,20 @@ i {
 }
 
 .footer {
-    border-top: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid $border-color;
     text-align: center;
     margin-bottom: 10px;
 }
 
 .groda {
     width: $img-width;
+    border-radius: 20%;
+    box-shadow: 10px 10px rgba(32, 32, 32, 0.5);
 }
 
 @media (max-width: ($img-width + 200px)) {
     .groda {
         width: 100%;
+        box-shadow: none;
     }
 }

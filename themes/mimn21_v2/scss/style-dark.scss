@@ -52,6 +52,7 @@ i {
 
 .groda {
     width: $img-width;
+    border-radius: 20%;
 }
 
 @media (max-width: ($img-width + 200px)) {
