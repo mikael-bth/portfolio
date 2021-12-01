@@ -6678,12 +6678,73 @@ readers do not read off random characters that represent icons */
     grid-column: span 1;
   }
 }
-.landingpage .subpage table {
+.analysis.subpage {
+  display: grid;
+  gap: 2em 2em;
+  grid-template-columns: 20% 70%;
+}
+
+.analysis.subpage h1 {
+  grid-column: span 2;
+  justify-self: center;
+}
+
+.analysis.subpage .links {
+  display: grid;
+  grid-column: span 1;
+  grid-template-rows: 30px 30px 30px;
+  justify-self: center;
+  font-size: 20px;
+}
+
+.analysis.subpage .text {
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.analysis.subpage .links a {
+  margin-top: 10px;
+  height: 20px;
+}
+
+.analysis.subpage .active {
+  color: #ff7b00;
+}
+
+.analysis.subpage .webpage {
+  display: grid;
+  grid-column: span 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.analysis.subpage .webpage img {
+  justify-self: center;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .analysis.subpage {
+    grid-template-columns: 100%;
+  }
+
+  .analysis.subpage h1 {
+    grid-column: span 1;
+  }
+
+  .analysis.subpage .links {
+    display: none;
+  }
+}
+.analysis.subpage table {
   border-spacing: 4px;
   border-collapse: separate;
 }
 
-.landingpage .subpage td {
+.analysis.subpage td {
   height: 50px;
   width: 50px;
 }
