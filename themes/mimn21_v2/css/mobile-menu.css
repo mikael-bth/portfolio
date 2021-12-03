@@ -43,9 +43,12 @@
         padding: 0.5em 0;
     }
 
+    .nav .hidden {
+        display: none;
+    }
+
     .js .nav-toggle {
         display: block;
-        float: right;
         width: 2em;
         margin: 0.6667em 0;
         font-size: 1.5rem;
