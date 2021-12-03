@@ -65,12 +65,13 @@
     }
 
     .landingpage .anylysis-box {
-        width: 80%;
+        min-width: 300px;
         justify-self: center;
         grid-column: span 1;
     }  
 
     .landingpage .anylysis-box.last {
+        min-width: 300px;
         grid-column: span 1;
     }
 }
