@@ -28,9 +28,9 @@ analysera sidor man är inne på ofta men oftast inte tittar så noga på sakern
 </p>
 
 <ul>
-    <li><a href="https://www.w3schools.com/" class="active">w3schools</a></li>
-    <li><a href="https://twitter.com/home?lang=sv" class="active">Twitter</a></li>
-    <li><a href="https://www.amazon.com/" class="active">Amazon</a></li>
+    <li><a href="https://www.w3schools.com/">w3schools</a></li>
+    <li><a href="https://twitter.com/home?lang=sv">Twitter</a></li>
+    <li><a href="https://www.amazon.com/">Amazon</a></li>
 </ul>
 
 <h2>Metod</h2>
@@ -119,8 +119,8 @@ förrutom då twitter vilket var lite unik med att den använde webbläsarens st
 
 <p>
 <ul>
-    <li><a href="https://www.nngroup.com/articles/characteristics-minimalism/" class="active">The Characteristics of Minimalism in Web Design</a></li>
-    <li><a href="https://webdesign.tutsplus.com/articles/an-introduction-to-color-theory-for-web-designers--webdesign-1437" class="active">An Introduction to Color Theory for Web Designers</a></li>
+    <li><a href="https://www.nngroup.com/articles/characteristics-minimalism/">The Characteristics of Minimalism in Web Design</a></li>
+    <li><a href="https://webdesign.tutsplus.com/articles/an-introduction-to-color-theory-for-web-designers--webdesign-1437">An Introduction to Color Theory for Web Designers</a></li>
 </ul>
 </p>
 

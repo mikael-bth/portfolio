@@ -36,6 +36,10 @@
     color: $link-color-dark;
 }
 
+.analysis.subpage ul a {
+    color: $font-color;
+}
+
 .analysis.subpage .webpage {
     display: grid;
     grid-column: span 1;

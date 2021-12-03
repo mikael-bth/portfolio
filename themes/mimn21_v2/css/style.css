@@ -6715,6 +6715,10 @@ readers do not read off random characters that represent icons */
   color: #ff7b00;
 }
 
+.analysis.subpage ul a {
+  color: #000;
+}
+
 .analysis.subpage .webpage {
   display: grid;
   grid-column: span 1;
@@ -6776,6 +6780,10 @@ i {
   border-top: 2px solid #000;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.nav a {
+  color: #000;
 }
 
 .groda {
