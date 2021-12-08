@@ -6754,6 +6754,61 @@ readers do not read off random characters that represent icons */
   width: 50px;
 }
 
+.gallery {
+  display: grid;
+  gap: 2em 2em;
+}
+
+.gallery h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.gallery .pic-container {
+  justify-self: center;
+  height: 300px;
+  width: 300px;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+@media (min-width: 1025px) {
+  .gallery .pic-container:nth-last-child(-n+3) {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .gallery h1 {
+    grid-column: span 2;
+  }
+
+  .gallery .pic-container:nth-last-child(-n+1) {
+    grid-column: span 2;
+    margin-bottom: 10px;
+  }
+
+  .gallery .pic-container {
+    height: 350px;
+    width: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .gallery h1 {
+    grid-column: span 1;
+  }
+
+  .gallery .pic-container:nth-last-child(-n+1) {
+    grid-column: span 1;
+    margin-bottom: 10px;
+  }
+
+  .gallery .pic-container {
+    width: 100%;
+    height: auto;
+  }
+}
 body {
   background-color: #5a8cce;
 }

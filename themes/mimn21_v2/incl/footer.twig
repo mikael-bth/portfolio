@@ -1,16 +1,16 @@
 <div class="footer">
     <div>
         <p>
-            Mikael Menonen Portfolio Sida V.4.0.2
+            Mikael Menonen Portfolio Sida V.5.0.1
         </p>
     </div>
     <div class="social">
-        {% for social in pages["_meta"].meta.social %}
-        <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-            <i class="{{ social.icon }}" aria-hidden="true"></i>
-            <span class="sr-only">{{ social.title }}</span>
-        </a>
-        {% endfor %}
+    {% for social in pages["_meta"].meta.social %}
+    <a href="{{ social.url }}" title="{{ social.title }}" role="button">
+        <i class="{{ social.icon }}" aria-hidden="true"></i>
+        <span class="sr-only">{{ social.title }}</span>
+    </a>
+    {% endfor %}
     </div>
 </div>
 
