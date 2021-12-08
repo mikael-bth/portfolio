@@ -2,6 +2,7 @@
 Title: Gallery
 Description: Image gallery.
 Template: gallery
+Video: https://www.youtube.com/embed/pocXo5ZIfLA
 Image:
     - alt: groda
       url: image/groda1.jpg
@@ -22,5 +23,5 @@ Image:
     - alt: sköldpadda
       url: image/padda.jpg
 ---
-Image Gallery
+Gallery
 =========
