@@ -1,6 +1,6 @@
 ---
 Title: Colors
-Description: Colors page.
+Description: Colors analysis page.
 Template: analysis
 ---
 
@@ -8,9 +8,9 @@ Färgval analys
 =======================
 
 <div class="links">
-<a href="analysis/01_colors" class="active">Colors</a>
-<a href="analysis/02_load">Load</a>
-<a href="analysis/03_design_principles">Design principles</a>
+<a href="01_colors" class="active">Colors</a>
+<a href="02_load">Load</a>
+<a href="03_design_principles">Design principles</a>
 </div>
 
 <div class="text">
@@ -47,7 +47,7 @@ dom brevid varanda för att få en bättre förståelse över färgtemat.
 
 <h2>Resultat</h2>
 <div class="webpage">
-    <img src="../image/w3schools.png">
+    <img src="../image/w3schools.png?save-as=jpg">
 </div>
 <p>
 W3schools:<br>
@@ -67,7 +67,7 @@ W3school valde att använda sans-serif för H1-H3 och brödtext vilket gör text
 W3school färgval och typografi tyder mycket på att sidan vill ha en profil av funktionalitet och professionalitet.
 </p>
 <div class="webpage">
-    <img src="../image/twitter.png">
+    <img src="../image/twitter.png?save-as=jpg">
 </div>
 Twitter:<br>
 Twitter använder bara lite av färgerna blå, ljusblå och svart för att bryta upp den vita bakgrunden.
@@ -87,7 +87,7 @@ ut. Twitters färgval och typografi tyder på ett fokus på en "ren" stil som in
 </p>
 
 <div class="webpage">
-    <img src="../image/amazon.png">
+    <img src="../image/amazon.png?save-as=jpg">
 </div>
 Amazon:<br>
 Amazon använder mycket mörka färger för att inte ta bort fokus från innehållet med lite orange för att skapa en logga som är lättare att känna igen.

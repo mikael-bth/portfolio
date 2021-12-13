@@ -52,6 +52,29 @@
     width: 60%;
 }
 
+.analysis.subpage .speed-grade {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.analysis.subpage .page-grade {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+iframe {
+    height: 200px;
+    width: 550px;
+}
+
+@media (max-width: 1024px) {
+    .analysis.subpage .page-grade {
+        width: 50%;
+    }
+}
+
 @media (max-width: 768px) {
     .analysis.subpage {
         grid-template-columns: 100%;
@@ -63,5 +86,9 @@
     
     .analysis.subpage .links {
         display: none;
+    }
+
+    .analysis.subpage .page-grade {
+        width: 90%;
     }
 }

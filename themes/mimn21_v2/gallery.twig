@@ -4,7 +4,6 @@
 
 {% include 'incl/nav.twig' %}
 
-<div class="main" role="main">
 <div class="gallery">
     {{ content }}
     {% for image in meta["Image"] %}
@@ -21,7 +20,6 @@
 </div>
 <div class="video-container">
     <iframe src="{{ meta["Video"] }}" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 </div>
 
 {% include 'incl/footer.twig' %}

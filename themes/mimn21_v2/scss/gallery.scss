@@ -25,7 +25,7 @@
     overflow: hidden;
     max-width: 80%;
     left: 10%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .video-container iframe {
@@ -38,7 +38,7 @@
 
 @media (min-width: 1025px) {
     .gallery .pic-container:nth-last-child(-n+3) {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 }
 
@@ -49,7 +49,7 @@
 
     .gallery .pic-container:nth-last-child(-n+1) {
         grid-column: span 2;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .gallery .pic-container {
@@ -65,7 +65,7 @@
 
     .gallery .pic-container:nth-last-child(-n+1) {
         grid-column: span 1;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .gallery .pic-container {
