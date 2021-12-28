@@ -6527,10 +6527,12 @@ readers do not read off random characters that represent icons */
   align-self: end;
   font-size: 24px;
   margin: 10px;
+  visibility: hidden;
 }
 
 .kmom-box a i {
   color: #000;
+  visibility: visible;
 }
 
 .kmom-box.project {
